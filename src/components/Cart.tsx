@@ -42,7 +42,7 @@ class Cart extends React.Component<Props, State> {
             >
               <ul>
                 {state.cart.items.map(item => {
-                  return <li key={item.id}>{item.name}</li>
+                  return <li key={item.id}>{item.name} &times; {item.quantity}</li>
                 })}
               </ul>
             </div>
