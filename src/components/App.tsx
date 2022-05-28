@@ -9,6 +9,7 @@ import SpecialOffer from './SpecialOffer';
 
 const App = () => {
   const SpecialOfferPizza = pizzas.find((pizza) => pizza.specialOffer);
+
   return (
     <AppStateProvider>
       <div className={AppCSS.container}>
